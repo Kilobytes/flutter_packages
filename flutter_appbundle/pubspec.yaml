@@ -13,8 +13,8 @@ dependencies:
 
    kilobytes_flutter_core:
       git:
-         url: git://github.com/darkcompet/kilobytes_flutter_packages.git
-         path: packages/kilobytes_flutter_core
+         url: git://github.com/kilobytes/flutter_packages.git
+         path: flutter_core
 
 dev_dependencies:
    flutter_test:
