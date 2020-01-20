@@ -10,8 +10,8 @@ Here is installation for `flutter_core` package.
 
 ```yaml
 dependencies:
-   flutter_core:
+   kilobytes_flutter_core:
       git:
-         url: git://github.com/Kilobytes/flutter_packages.git
+         url: git://github.com/kilobytes/flutter_packages.git
          path: flutter_core
 ```
