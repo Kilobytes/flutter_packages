@@ -1,6 +1,6 @@
 # packages
 
-Contains all packages for Flutter.
+Contains all packages which be used in Flutter apps or libraries.
 
 
 ## Installation
@@ -12,7 +12,7 @@ Below snippet is for `flutter_code`.
 dependencies:
    flutter_core:
       git:
-         url: git://github.com/kilobytesgroup/flutter_core.git
+         url: git://github.com/Kilobytes/flutter_packages.git
          path: flutter_core
 ```
 
