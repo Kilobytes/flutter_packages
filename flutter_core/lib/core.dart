@@ -3,6 +3,7 @@ library core;
 import 'package:flutter/foundation.dart';
 
 export 'src/log/console_log.dart';
+export 'src/log/vision_log.dart';
 export 'src/log/benchmark.dart';
 
 export 'src/util/maths.dart';
