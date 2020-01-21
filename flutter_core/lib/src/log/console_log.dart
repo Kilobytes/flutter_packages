@@ -1,6 +1,6 @@
-import 'dart:math' show min, max;
+import 'dart:math' show min;
 
-import 'package:flutter/foundation.dart' show kReleaseMode;
+import 'package:kilobytes_flutter_core/core.dart' show RELEASE;
 
 /**
  * Standard (Console) log utility class. Some functions can be used in debug mode,
@@ -12,7 +12,7 @@ import 'package:flutter/foundation.dart' show kReleaseMode;
 class DkLogs {
    /// Write log. Note that, we can use `stdout.writeln()` instead.
    static void _log(bool validInProduct, dynamic logType, Object where, dynamic msg) {
-      if (kReleaseMode && !validInProduct) {
+      if (RELEASE && !validInProduct) {
          throw "Cannot use log [$logType] in release mode";
       }
       print("${_makePrefix(where, logType)} $msg");
