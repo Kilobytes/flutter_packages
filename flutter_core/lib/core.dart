@@ -2,6 +2,10 @@ library core;
 
 import 'package:flutter/foundation.dart';
 
+
+export 'src/config/app_config.dart';
+export 'src/config/device_config.dart';
+
 export 'src/log/console_log.dart';
 export 'src/log/vision_log.dart';
 export 'src/log/benchmark.dart';
